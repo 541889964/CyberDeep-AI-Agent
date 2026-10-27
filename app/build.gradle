@@ -1,0 +1,13 @@
+apply plugin: 'com.android.application'
+android {
+    namespace 'com.cyber.agent'
+    compileSdk 34
+    defaultConfig { applicationId "com.cyber.agent"; minSdk 26; targetSdk 34 }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies {
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.recyclerview:recyclerview:1.3.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+}

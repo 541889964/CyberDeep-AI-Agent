@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#64748B" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#1E293B"
+        android:padding="12dp"
+        android:fontFamily="monospace"
+        android:textSize="14sp"
+        android:textColor="#E2E8F0"
+        android:textIsSelectable="true" />
+        
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExecCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="⚡ 用 Root 执行这段代码"
+        android:visibility="gone"
+        android:backgroundTint="#EF4444" />
+</LinearLayout>
